@@ -1,5 +1,5 @@
 # AGNIES — read-only viewer deploy (no LLM pipeline runs on this box).
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 WORKDIR /app
 COPY requirements.txt .
