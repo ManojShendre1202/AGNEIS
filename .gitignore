@@ -1,0 +1,38 @@
+# --- Python / venv ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# --- Django ---
+agnies_agent/backend/db/*.sqlite3
+agnies_agent/backend/db/*.db
+*.log
+
+# --- Secrets ---
+.env
+agnies_agent/backend/.env
+*.env.local
+
+# --- Node / frontend ---
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- SSH keys accidentally dropped in-repo ---
+*.pem
+*.key
+
+agnies_agent/backend/agnies/tests
+
+# --- Django migrations (built fresh via makemigrations on deploy) ---
+agnies_agent/backend/core/migrations/0*.py

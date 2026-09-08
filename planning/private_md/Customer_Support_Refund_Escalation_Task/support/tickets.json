@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "customer_note": "One of my earbuds stopped charging after about a week of normal use.",
+    "item_type": "wireless earbuds",
+    "requested_amount": 45.00,
+    "stated_reason": "defective",
+    "days_since_purchase": 13,
+    "order_total": 45.00,
+    "evidence_provided": true,
+    "customer_history": "first_time"
+  },
+  {
+    "id": 2,
+    "customer_note": "The app keeps crashing every single time I open it. Completely unusable, I've had it two weeks now.",
+    "item_type": "digital software license",
+    "requested_amount": 60.00,
+    "stated_reason": "used_up_defective",
+    "days_since_purchase": 14,
+    "order_total": 60.00,
+    "evidence_provided": false,
+    "customer_history": "first_time"
+  },
+  {
+    "id": 3,
+    "customer_note": "The blue sweater from my order is the wrong size. I just want a refund on that one item, keeping the rest.",
+    "item_type": "bundled_order_item",
+    "requested_amount": 80.00,
+    "stated_reason": "wrong_size",
+    "days_since_purchase": 5,
+    "order_total": 250.00,
+    "evidence_provided": true,
+    "customer_history": "first_time"
+  },
+  {
+    "id": 4,
+    "customer_note": "I bought this clearance jacket last week but changed my mind, I don't want it anymore.",
+    "item_type": "final_sale_clearance",
+    "requested_amount": 35.00,
+    "stated_reason": "changed_mind",
+    "days_since_purchase": 3,
+    "order_total": 35.00,
+    "evidence_provided": false,
+    "customer_history": "first_time"
+  },
+  {
+    "id": 5,
+    "customer_note": "The zipper on this jacket arrived already broken. Honestly I probably wouldn't have kept it anyway, but it should at least work.",
+    "item_type": "apparel",
+    "requested_amount": 90.00,
+    "stated_reason": "defective",
+    "days_since_purchase": 4,
+    "order_total": 90.00,
+    "evidence_provided": true,
+    "customer_history": "first_time"
+  },
+  {
+    "id": 6,
+    "customer_note": "I used the whole bottle of this face serum over the past few weeks and then broke out in a bad rash, had to see a dermatologist about it.",
+    "item_type": "consumable_skincare",
+    "requested_amount": 55.00,
+    "stated_reason": "used_up_allergic_reaction",
+    "days_since_purchase": 20,
+    "order_total": 55.00,
+    "evidence_provided": true,
+    "customer_history": "first_time"
+  },
+  {
+    "id": 7,
+    "customer_note": "This arrived visibly damaged, looked like it got crushed somewhere in shipping.",
+    "item_type": "electronics",
+    "requested_amount": 180.00,
+    "stated_reason": "damaged_in_shipping",
+    "days_since_purchase": 6,
+    "order_total": 180.00,
+    "evidence_provided": false,
+    "customer_history": "repeat_5_orders_no_prior_refunds"
+  },
+  {
+    "id": 8,
+    "customer_note": "This blender's motor just died on the second use.",
+    "item_type": "small_appliance",
+    "requested_amount": 200.00,
+    "stated_reason": "defective",
+    "days_since_purchase": 8,
+    "order_total": 200.00,
+    "evidence_provided": true,
+    "customer_history": "first_time"
+  },
+  {
+    "id": 9,
+    "customer_note": "Tracking says delivered but I never received this package. It's been two weeks now.",
+    "item_type": "electronics",
+    "requested_amount": 210.00,
+    "stated_reason": "never_arrived",
+    "days_since_purchase": 15,
+    "order_total": 210.00,
+    "evidence_provided": true,
+    "customer_history": "first_time"
+  },
+  {
+    "id": 10,
+    "customer_note": "The wrong item got shipped to me again. This is the third thing that's gone wrong with my orders in the last couple months.",
+    "item_type": "apparel",
+    "requested_amount": 150.00,
+    "stated_reason": "wrong_item_shipped",
+    "days_since_purchase": 4,
+    "order_total": 150.00,
+    "evidence_provided": true,
+    "customer_history": "repeat_3_refunds_past_2_months"
+  },
+  {
+    "id": 11,
+    "customer_note": "Finished the whole jar of protein powder, just wasn't a fan of the taste.",
+    "item_type": "consumable_food",
+    "requested_amount": 40.00,
+    "stated_reason": "used_up_dissatisfied",
+    "days_since_purchase": 10,
+    "order_total": 40.00,
+    "evidence_provided": false,
+    "customer_history": "first_time"
+  },
+  {
+    "id": 12,
+    "customer_note": "Support already refunded me for this order once but the amount was calculated wrong. I'm owed the full order total again on top of what I already got back.",
+    "item_type": "bundled_order",
+    "requested_amount": 320.00,
+    "stated_reason": "billing_error_claim",
+    "days_since_purchase": 2,
+    "order_total": 250.00,
+    "evidence_provided": false,
+    "customer_history": "first_time"
+  }
+]
